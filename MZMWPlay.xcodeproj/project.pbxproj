@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D78AE20928DE4648E2D585F /* libPods-MZMWPlayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4AF4EA440A694E256931CC /* libPods-MZMWPlayTests.a */; };
+		4D619D511EC2C0D30084EC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2031F1EC1D0F600B020FD /* Main.storyboard */; };
+		4D8FCC221EC6E98600335947 /* crazySnake in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FCC211EC6E98600335947 /* crazySnake */; };
+		4DD203181EC1D0F600B020FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD203171EC1D0F600B020FD /* main.m */; };
+		4DD203261EC1D0F600B020FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203241EC1D0F600B020FD /* LaunchScreen.storyboard */; };
+		4DD203311EC1D0F700B020FD /* MZMWPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD203301EC1D0F700B020FD /* MZMWPlayTests.m */; };
+		4DD2033C1EC1D0F700B020FD /* MZMWPlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2033B1EC1D0F700B020FD /* MZMWPlayUITests.m */; };
+		4DD2034B1EC1D11A00B020FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2034A1EC1D11A00B020FD /* Assets.xcassets */; };
+		4DD203631EC1D14600B020FD /* 01_tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2034D1EC1D14600B020FD /* 01_tap.mp3 */; };
+		4DD203641EC1D14600B020FD /* 02_getgold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2034E1EC1D14600B020FD /* 02_getgold.mp3 */; };
+		4DD203651EC1D14600B020FD /* 03_getdiamond.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2034F1EC1D14600B020FD /* 03_getdiamond.mp3 */; };
+		4DD203661EC1D14600B020FD /* 04_button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203501EC1D14600B020FD /* 04_button.mp3 */; };
+		4DD203671EC1D14600B020FD /* 05_refresh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203511EC1D14600B020FD /* 05_refresh.mp3 */; };
+		4DD203681EC1D14600B020FD /* 06_matching.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203521EC1D14600B020FD /* 06_matching.mp3 */; };
+		4DD203691EC1D14600B020FD /* 07_match_done.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203531EC1D14600B020FD /* 07_match_done.mp3 */; };
+		4DD2036A1EC1D14600B020FD /* 08_resulting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203541EC1D14600B020FD /* 08_resulting.mp3 */; };
+		4DD2036B1EC1D14600B020FD /* 09_win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203551EC1D14600B020FD /* 09_win.mp3 */; };
+		4DD2036C1EC1D14600B020FD /* 10_lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203561EC1D14600B020FD /* 10_lose.mp3 */; };
+		4DD2036D1EC1D14600B020FD /* 11_levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203571EC1D14600B020FD /* 11_levelup.mp3 */; };
+		4DD2036E1EC1D14600B020FD /* 12_leveldown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203581EC1D14600B020FD /* 12_leveldown.mp3 */; };
+		4DD2036F1EC1D14600B020FD /* 13_lottery_gold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203591EC1D14600B020FD /* 13_lottery_gold.mp3 */; };
+		4DD203701EC1D14600B020FD /* 14_lottery_ticket.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2035A1EC1D14600B020FD /* 14_lottery_ticket.mp3 */; };
+		4DD203711EC1D14600B020FD /* 15_bingo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2035B1EC1D14600B020FD /* 15_bingo.mp3 */; };
+		4DD203721EC1D14600B020FD /* falling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2035C1EC1D14600B020FD /* falling.mp3 */; };
+		4DD203731EC1D14600B020FD /* get_ticket.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2035D1EC1D14600B020FD /* get_ticket.mp3 */; };
+		4DD203741EC1D14600B020FD /* login_price.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2035E1EC1D14600B020FD /* login_price.mp3 */; };
+		4DD203751EC1D14600B020FD /* match_gold_emitter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2035F1EC1D14600B020FD /* match_gold_emitter.mp3 */; };
+		4DD203761EC1D14600B020FD /* match_rotate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203601EC1D14600B020FD /* match_rotate.mp3 */; };
+		4DD203771EC1D14600B020FD /* wz_countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203611EC1D14600B020FD /* wz_countdown.mp3 */; };
+		4DD203781EC1D14600B020FD /* wz_timeover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD203621EC1D14600B020FD /* wz_timeover.mp3 */; };
+		4DD2037E1EC1EEFB00B020FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2037B1EC1EEFB00B020FD /* AppDelegate.m */; };
+		4DD2037F1EC1EEFB00B020FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2037D1EC1EEFB00B020FD /* ViewController.m */; };
+		66E46DA805E434158AC3DF6B /* libPods-MZMWPlayUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F03293A041E93F9DAB7CAC35 /* libPods-MZMWPlayUITests.a */; };
+		8F3A1F3C56D866AAD6A9957F /* libPods-MZMWPlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0645AF2982B34458892A9290 /* libPods-MZMWPlay.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DD2032D1EC1D0F700B020FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD2030B1EC1D0F600B020FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD203121EC1D0F600B020FD;
+			remoteInfo = MZMWPlay;
+		};
+		4DD203381EC1D0F700B020FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD2030B1EC1D0F600B020FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD203121EC1D0F600B020FD;
+			remoteInfo = MZMWPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0645AF2982B34458892A9290 /* libPods-MZMWPlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZMWPlay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF6A183B9684E3BE21BA3DE /* Pods-MZMWPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZMWPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZMWPlay/Pods-MZMWPlay.release.xcconfig"; sourceTree = "<group>"; };
+		17E9823F38F519CDE71B54A4 /* Pods-MZMWPlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZMWPlayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZMWPlayUITests/Pods-MZMWPlayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D619D4F1EC2BCFF0084EC5E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		4D8FCC211EC6E98600335947 /* crazySnake */ = {isa = PBXFileReference; lastKnownFileType = folder; path = crazySnake; sourceTree = "<group>"; };
+		4DD203131EC1D0F600B020FD /* MZMWPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZMWPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD203171EC1D0F600B020FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DD203201EC1D0F600B020FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DD203251EC1D0F600B020FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DD203271EC1D0F600B020FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD2032C1EC1D0F700B020FD /* MZMWPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZMWPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD203301EC1D0F700B020FD /* MZMWPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZMWPlayTests.m; sourceTree = "<group>"; };
+		4DD203321EC1D0F700B020FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD203371EC1D0F700B020FD /* MZMWPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZMWPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD2033B1EC1D0F700B020FD /* MZMWPlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZMWPlayUITests.m; sourceTree = "<group>"; };
+		4DD2033D1EC1D0F700B020FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD2034A1EC1D11A00B020FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DD2034D1EC1D14600B020FD /* 01_tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 01_tap.mp3; sourceTree = "<group>"; };
+		4DD2034E1EC1D14600B020FD /* 02_getgold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 02_getgold.mp3; sourceTree = "<group>"; };
+		4DD2034F1EC1D14600B020FD /* 03_getdiamond.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 03_getdiamond.mp3; sourceTree = "<group>"; };
+		4DD203501EC1D14600B020FD /* 04_button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 04_button.mp3; sourceTree = "<group>"; };
+		4DD203511EC1D14600B020FD /* 05_refresh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 05_refresh.mp3; sourceTree = "<group>"; };
+		4DD203521EC1D14600B020FD /* 06_matching.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 06_matching.mp3; sourceTree = "<group>"; };
+		4DD203531EC1D14600B020FD /* 07_match_done.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 07_match_done.mp3; sourceTree = "<group>"; };
+		4DD203541EC1D14600B020FD /* 08_resulting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 08_resulting.mp3; sourceTree = "<group>"; };
+		4DD203551EC1D14600B020FD /* 09_win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 09_win.mp3; sourceTree = "<group>"; };
+		4DD203561EC1D14600B020FD /* 10_lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10_lose.mp3; sourceTree = "<group>"; };
+		4DD203571EC1D14600B020FD /* 11_levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11_levelup.mp3; sourceTree = "<group>"; };
+		4DD203581EC1D14600B020FD /* 12_leveldown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 12_leveldown.mp3; sourceTree = "<group>"; };
+		4DD203591EC1D14600B020FD /* 13_lottery_gold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 13_lottery_gold.mp3; sourceTree = "<group>"; };
+		4DD2035A1EC1D14600B020FD /* 14_lottery_ticket.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 14_lottery_ticket.mp3; sourceTree = "<group>"; };
+		4DD2035B1EC1D14600B020FD /* 15_bingo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 15_bingo.mp3; sourceTree = "<group>"; };
+		4DD2035C1EC1D14600B020FD /* falling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = falling.mp3; sourceTree = "<group>"; };
+		4DD2035D1EC1D14600B020FD /* get_ticket.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = get_ticket.mp3; sourceTree = "<group>"; };
+		4DD2035E1EC1D14600B020FD /* login_price.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = login_price.mp3; sourceTree = "<group>"; };
+		4DD2035F1EC1D14600B020FD /* match_gold_emitter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = match_gold_emitter.mp3; sourceTree = "<group>"; };
+		4DD203601EC1D14600B020FD /* match_rotate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = match_rotate.mp3; sourceTree = "<group>"; };
+		4DD203611EC1D14600B020FD /* wz_countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wz_countdown.mp3; sourceTree = "<group>"; };
+		4DD203621EC1D14600B020FD /* wz_timeover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wz_timeover.mp3; sourceTree = "<group>"; };
+		4DD2037A1EC1EEFB00B020FD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DD2037B1EC1EEFB00B020FD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DD2037C1EC1EEFB00B020FD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DD2037D1EC1EEFB00B020FD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7594034B7DCE90DBFFAD6222 /* Pods-MZMWPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZMWPlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZMWPlayTests/Pods-MZMWPlayTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A4AF4EA440A694E256931CC /* libPods-MZMWPlayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZMWPlayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905BC820E866CCFE27068099 /* Pods-MZMWPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZMWPlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZMWPlayTests/Pods-MZMWPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF3247741784CFE1F513651D /* Pods-MZMWPlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZMWPlayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZMWPlayUITests/Pods-MZMWPlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F03293A041E93F9DAB7CAC35 /* libPods-MZMWPlayUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZMWPlayUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA97AC69E597894EDDE01396 /* Pods-MZMWPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZMWPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZMWPlay/Pods-MZMWPlay.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD203101EC1D0F600B020FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3A1F3C56D866AAD6A9957F /* libPods-MZMWPlay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD203291EC1D0F700B020FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D78AE20928DE4648E2D585F /* libPods-MZMWPlayTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD203341EC1D0F700B020FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E46DA805E434158AC3DF6B /* libPods-MZMWPlayUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D619D4E1EC2BCFE0084EC5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D619D4F1EC2BCFF0084EC5E /* Photos.framework */,
+				0645AF2982B34458892A9290 /* libPods-MZMWPlay.a */,
+				7A4AF4EA440A694E256931CC /* libPods-MZMWPlayTests.a */,
+				F03293A041E93F9DAB7CAC35 /* libPods-MZMWPlayUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DD2030A1EC1D0F600B020FD = {
+			isa = PBXGroup;
+			children = (
+				4DD203151EC1D0F600B020FD /* MZMWPlay */,
+				4DD2032F1EC1D0F700B020FD /* MZMWPlayTests */,
+				4DD2033A1EC1D0F700B020FD /* MZMWPlayUITests */,
+				4DD203141EC1D0F600B020FD /* Products */,
+				4D619D4E1EC2BCFE0084EC5E /* Frameworks */,
+				E611C4A49040F8B551BDE522 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD203141EC1D0F600B020FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD203131EC1D0F600B020FD /* MZMWPlay.app */,
+				4DD2032C1EC1D0F700B020FD /* MZMWPlayTests.xctest */,
+				4DD203371EC1D0F700B020FD /* MZMWPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD203151EC1D0F600B020FD /* MZMWPlay */ = {
+			isa = PBXGroup;
+			children = (
+				4DD203791EC1EEFB00B020FD /* Classes */,
+				4DD203491EC1D11A00B020FD /* Resources */,
+				4DD2031F1EC1D0F600B020FD /* Main.storyboard */,
+				4DD203241EC1D0F600B020FD /* LaunchScreen.storyboard */,
+				4DD203271EC1D0F600B020FD /* Info.plist */,
+				4DD203161EC1D0F600B020FD /* Supporting Files */,
+			);
+			path = MZMWPlay;
+			sourceTree = "<group>";
+		};
+		4DD203161EC1D0F600B020FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DD203171EC1D0F600B020FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DD2032F1EC1D0F700B020FD /* MZMWPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD203301EC1D0F700B020FD /* MZMWPlayTests.m */,
+				4DD203321EC1D0F700B020FD /* Info.plist */,
+			);
+			path = MZMWPlayTests;
+			sourceTree = "<group>";
+		};
+		4DD2033A1EC1D0F700B020FD /* MZMWPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD2033B1EC1D0F700B020FD /* MZMWPlayUITests.m */,
+				4DD2033D1EC1D0F700B020FD /* Info.plist */,
+			);
+			path = MZMWPlayUITests;
+			sourceTree = "<group>";
+		};
+		4DD203491EC1D11A00B020FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D8FCC211EC6E98600335947 /* crazySnake */,
+				4DD2034C1EC1D14500B020FD /* Audio */,
+				4DD2034A1EC1D11A00B020FD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4DD2034C1EC1D14500B020FD /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				4DD2034D1EC1D14600B020FD /* 01_tap.mp3 */,
+				4DD2034E1EC1D14600B020FD /* 02_getgold.mp3 */,
+				4DD2034F1EC1D14600B020FD /* 03_getdiamond.mp3 */,
+				4DD203501EC1D14600B020FD /* 04_button.mp3 */,
+				4DD203511EC1D14600B020FD /* 05_refresh.mp3 */,
+				4DD203521EC1D14600B020FD /* 06_matching.mp3 */,
+				4DD203531EC1D14600B020FD /* 07_match_done.mp3 */,
+				4DD203541EC1D14600B020FD /* 08_resulting.mp3 */,
+				4DD203551EC1D14600B020FD /* 09_win.mp3 */,
+				4DD203561EC1D14600B020FD /* 10_lose.mp3 */,
+				4DD203571EC1D14600B020FD /* 11_levelup.mp3 */,
+				4DD203581EC1D14600B020FD /* 12_leveldown.mp3 */,
+				4DD203591EC1D14600B020FD /* 13_lottery_gold.mp3 */,
+				4DD2035A1EC1D14600B020FD /* 14_lottery_ticket.mp3 */,
+				4DD2035B1EC1D14600B020FD /* 15_bingo.mp3 */,
+				4DD2035C1EC1D14600B020FD /* falling.mp3 */,
+				4DD2035D1EC1D14600B020FD /* get_ticket.mp3 */,
+				4DD2035E1EC1D14600B020FD /* login_price.mp3 */,
+				4DD2035F1EC1D14600B020FD /* match_gold_emitter.mp3 */,
+				4DD203601EC1D14600B020FD /* match_rotate.mp3 */,
+				4DD203611EC1D14600B020FD /* wz_countdown.mp3 */,
+				4DD203621EC1D14600B020FD /* wz_timeover.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		4DD203791EC1EEFB00B020FD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4DD2037A1EC1EEFB00B020FD /* AppDelegate.h */,
+				4DD2037B1EC1EEFB00B020FD /* AppDelegate.m */,
+				4DD2037C1EC1EEFB00B020FD /* ViewController.h */,
+				4DD2037D1EC1EEFB00B020FD /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E611C4A49040F8B551BDE522 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA97AC69E597894EDDE01396 /* Pods-MZMWPlay.debug.xcconfig */,
+				0DF6A183B9684E3BE21BA3DE /* Pods-MZMWPlay.release.xcconfig */,
+				905BC820E866CCFE27068099 /* Pods-MZMWPlayTests.debug.xcconfig */,
+				7594034B7DCE90DBFFAD6222 /* Pods-MZMWPlayTests.release.xcconfig */,
+				EF3247741784CFE1F513651D /* Pods-MZMWPlayUITests.debug.xcconfig */,
+				17E9823F38F519CDE71B54A4 /* Pods-MZMWPlayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD203121EC1D0F600B020FD /* MZMWPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD203401EC1D0F700B020FD /* Build configuration list for PBXNativeTarget "MZMWPlay" */;
+			buildPhases = (
+				60EC4973E2627EC460FFCF1C /* [CP] Check Pods Manifest.lock */,
+				4DD2030F1EC1D0F600B020FD /* Sources */,
+				4DD203101EC1D0F600B020FD /* Frameworks */,
+				4DD203111EC1D0F600B020FD /* Resources */,
+				E345BDAB2AA38178DA4BD9AB /* [CP] Embed Pods Frameworks */,
+				A3316A7A3BC13B98B4382F68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZMWPlay;
+			productName = MZMWPlay;
+			productReference = 4DD203131EC1D0F600B020FD /* MZMWPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DD2032B1EC1D0F700B020FD /* MZMWPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD203431EC1D0F700B020FD /* Build configuration list for PBXNativeTarget "MZMWPlayTests" */;
+			buildPhases = (
+				45CF24FC4D470565A2CB4954 /* [CP] Check Pods Manifest.lock */,
+				4DD203281EC1D0F700B020FD /* Sources */,
+				4DD203291EC1D0F700B020FD /* Frameworks */,
+				4DD2032A1EC1D0F700B020FD /* Resources */,
+				06B9A8F31E0FB54CA6E042E3 /* [CP] Embed Pods Frameworks */,
+				78830E58139B2AB58C84ABC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD2032E1EC1D0F700B020FD /* PBXTargetDependency */,
+			);
+			name = MZMWPlayTests;
+			productName = MZMWPlayTests;
+			productReference = 4DD2032C1EC1D0F700B020FD /* MZMWPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DD203361EC1D0F700B020FD /* MZMWPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD203461EC1D0F700B020FD /* Build configuration list for PBXNativeTarget "MZMWPlayUITests" */;
+			buildPhases = (
+				B03207F5797F556CA8AB2994 /* [CP] Check Pods Manifest.lock */,
+				4DD203331EC1D0F700B020FD /* Sources */,
+				4DD203341EC1D0F700B020FD /* Frameworks */,
+				4DD203351EC1D0F700B020FD /* Resources */,
+				B28AD3F81D88425748B2D28A /* [CP] Embed Pods Frameworks */,
+				677D81368D21D4B0DFB7CE6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD203391EC1D0F700B020FD /* PBXTargetDependency */,
+			);
+			name = MZMWPlayUITests;
+			productName = MZMWPlayUITests;
+			productReference = 4DD203371EC1D0F700B020FD /* MZMWPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD2030B1EC1D0F600B020FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = veryitman;
+				TargetAttributes = {
+					4DD203121EC1D0F600B020FD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GR78TT232F;
+						ProvisioningStyle = Automatic;
+					};
+					4DD2032B1EC1D0F700B020FD = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4DD203121EC1D0F600B020FD;
+					};
+					4DD203361EC1D0F700B020FD = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4DD203121EC1D0F600B020FD;
+					};
+				};
+			};
+			buildConfigurationList = 4DD2030E1EC1D0F600B020FD /* Build configuration list for PBXProject "MZMWPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DD2030A1EC1D0F600B020FD;
+			productRefGroup = 4DD203141EC1D0F600B020FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD203121EC1D0F600B020FD /* MZMWPlay */,
+				4DD2032B1EC1D0F700B020FD /* MZMWPlayTests */,
+				4DD203361EC1D0F700B020FD /* MZMWPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DD203111EC1D0F600B020FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D619D511EC2C0D30084EC5E /* Main.storyboard in Resources */,
+				4DD203711EC1D14600B020FD /* 15_bingo.mp3 in Resources */,
+				4DD2036D1EC1D14600B020FD /* 11_levelup.mp3 in Resources */,
+				4DD203261EC1D0F600B020FD /* LaunchScreen.storyboard in Resources */,
+				4D8FCC221EC6E98600335947 /* crazySnake in Resources */,
+				4DD203641EC1D14600B020FD /* 02_getgold.mp3 in Resources */,
+				4DD203661EC1D14600B020FD /* 04_button.mp3 in Resources */,
+				4DD203721EC1D14600B020FD /* falling.mp3 in Resources */,
+				4DD203681EC1D14600B020FD /* 06_matching.mp3 in Resources */,
+				4DD203751EC1D14600B020FD /* match_gold_emitter.mp3 in Resources */,
+				4DD2036C1EC1D14600B020FD /* 10_lose.mp3 in Resources */,
+				4DD203701EC1D14600B020FD /* 14_lottery_ticket.mp3 in Resources */,
+				4DD2036E1EC1D14600B020FD /* 12_leveldown.mp3 in Resources */,
+				4DD203631EC1D14600B020FD /* 01_tap.mp3 in Resources */,
+				4DD203781EC1D14600B020FD /* wz_timeover.mp3 in Resources */,
+				4DD203731EC1D14600B020FD /* get_ticket.mp3 in Resources */,
+				4DD203691EC1D14600B020FD /* 07_match_done.mp3 in Resources */,
+				4DD2036B1EC1D14600B020FD /* 09_win.mp3 in Resources */,
+				4DD203651EC1D14600B020FD /* 03_getdiamond.mp3 in Resources */,
+				4DD2034B1EC1D11A00B020FD /* Assets.xcassets in Resources */,
+				4DD2036F1EC1D14600B020FD /* 13_lottery_gold.mp3 in Resources */,
+				4DD203761EC1D14600B020FD /* match_rotate.mp3 in Resources */,
+				4DD203741EC1D14600B020FD /* login_price.mp3 in Resources */,
+				4DD2036A1EC1D14600B020FD /* 08_resulting.mp3 in Resources */,
+				4DD203671EC1D14600B020FD /* 05_refresh.mp3 in Resources */,
+				4DD203771EC1D14600B020FD /* wz_countdown.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD2032A1EC1D0F700B020FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD203351EC1D0F700B020FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B9A8F31E0FB54CA6E042E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZMWPlayTests/Pods-MZMWPlayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45CF24FC4D470565A2CB4954 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60EC4973E2627EC460FFCF1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		677D81368D21D4B0DFB7CE6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZMWPlayUITests/Pods-MZMWPlayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78830E58139B2AB58C84ABC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZMWPlayTests/Pods-MZMWPlayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3316A7A3BC13B98B4382F68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZMWPlay/Pods-MZMWPlay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B03207F5797F556CA8AB2994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B28AD3F81D88425748B2D28A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZMWPlayUITests/Pods-MZMWPlayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E345BDAB2AA38178DA4BD9AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZMWPlay/Pods-MZMWPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD2030F1EC1D0F600B020FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD2037F1EC1EEFB00B020FD /* ViewController.m in Sources */,
+				4DD2037E1EC1EEFB00B020FD /* AppDelegate.m in Sources */,
+				4DD203181EC1D0F600B020FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD203281EC1D0F700B020FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD203311EC1D0F700B020FD /* MZMWPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD203331EC1D0F700B020FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD2033C1EC1D0F700B020FD /* MZMWPlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DD2032E1EC1D0F700B020FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD203121EC1D0F600B020FD /* MZMWPlay */;
+			targetProxy = 4DD2032D1EC1D0F700B020FD /* PBXContainerItemProxy */;
+		};
+		4DD203391EC1D0F700B020FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD203121EC1D0F600B020FD /* MZMWPlay */;
+			targetProxy = 4DD203381EC1D0F700B020FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DD2031F1EC1D0F600B020FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD203201EC1D0F600B020FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DD203241EC1D0F600B020FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD203251EC1D0F600B020FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DD2033E1EC1D0F700B020FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/MZMWPlay/Classes/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DD2033F1EC1D0F700B020FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/MZMWPlay/Classes/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DD203411EC1D0F700B020FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA97AC69E597894EDDE01396 /* Pods-MZMWPlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GR78TT232F;
+				INFOPLIST_FILE = MZMWPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.veryitman.game.mw.MZMWPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DD203421EC1D0F700B020FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF6A183B9684E3BE21BA3DE /* Pods-MZMWPlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GR78TT232F;
+				INFOPLIST_FILE = MZMWPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.veryitman.game.mw.MZMWPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DD203441EC1D0F700B020FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905BC820E866CCFE27068099 /* Pods-MZMWPlayTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MZMWPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.veryitman.game.mw.MZMWPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZMWPlay.app/MZMWPlay";
+			};
+			name = Debug;
+		};
+		4DD203451EC1D0F700B020FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7594034B7DCE90DBFFAD6222 /* Pods-MZMWPlayTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MZMWPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.veryitman.game.mw.MZMWPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZMWPlay.app/MZMWPlay";
+			};
+			name = Release;
+		};
+		4DD203471EC1D0F700B020FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3247741784CFE1F513651D /* Pods-MZMWPlayUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MZMWPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.veryitman.game.mw.MZMWPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MZMWPlay;
+			};
+			name = Debug;
+		};
+		4DD203481EC1D0F700B020FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E9823F38F519CDE71B54A4 /* Pods-MZMWPlayUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MZMWPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.veryitman.game.mw.MZMWPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MZMWPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD2030E1EC1D0F600B020FD /* Build configuration list for PBXProject "MZMWPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD2033E1EC1D0F700B020FD /* Debug */,
+				4DD2033F1EC1D0F700B020FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD203401EC1D0F700B020FD /* Build configuration list for PBXNativeTarget "MZMWPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD203411EC1D0F700B020FD /* Debug */,
+				4DD203421EC1D0F700B020FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD203431EC1D0F700B020FD /* Build configuration list for PBXNativeTarget "MZMWPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD203441EC1D0F700B020FD /* Debug */,
+				4DD203451EC1D0F700B020FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD203461EC1D0F700B020FD /* Build configuration list for PBXNativeTarget "MZMWPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD203471EC1D0F700B020FD /* Debug */,
+				4DD203481EC1D0F700B020FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DD2030B1EC1D0F600B020FD /* Project object */;
+}

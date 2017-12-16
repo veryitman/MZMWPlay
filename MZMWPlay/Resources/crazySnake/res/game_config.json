@@ -1,0 +1,70 @@
+{
+  "notice": {
+    "notice_ctrl_len": 600,
+    "notice_die_len": 600,
+    "notice_acc_time": 12
+  },
+  "new_guy_length": 500,
+  "exceed": [
+    200,
+    400,
+    600,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000,
+    4000,
+    5000
+  ],
+  "player_pro": {
+    "rotate_speed": 320,
+    "rotate_times": 1.2,
+    "acc_times": 2,
+    "speed_times": 0.85
+  },
+  "stage_1": {
+    "n_food_per_sec": 30,
+    "m_food_fresh": 3,
+    "m_food_speed": 200,
+    "m_food_max_num": 12,
+    "rotate_speed": 300,
+    "acc_times": 1.4,
+    "rotate_times": 1.1,
+    "speed_times": 0.6,
+    "robot_born_time": 1.2
+  },
+  "stage_2": {
+    "n_food_per_sec": 30,
+    "m_food_fresh": 3,
+    "m_food_speed": 300,
+    "m_food_max_num": 10,
+    "rotate_speed": 380,
+    "acc_times": 1.6,
+    "rotate_times": 1.2,
+    "speed_times": 0.7,
+    "robot_born_time": 2
+  },
+  "stage_3": {
+    "n_food_per_sec": 10,
+    "m_food_fresh": 6,
+    "m_food_speed": 400,
+    "m_food_max_num": 8,
+    "rotate_speed": 460,
+    "acc_times": 1.8,
+    "rotate_times": 1.3,
+    "speed_times": 0.8,
+    "robot_born_time": 5
+  },
+  "stage_4": {
+    "n_food_per_sec": 1,
+    "m_food_fresh": 8,
+    "m_food_speed": 500,
+    "m_food_max_num": 8,
+    "rotate_speed": 600,
+    "acc_times": 2,
+    "rotate_times": 1.2,
+    "speed_times": 1,
+    "robot_born_time": 10
+  }
+}

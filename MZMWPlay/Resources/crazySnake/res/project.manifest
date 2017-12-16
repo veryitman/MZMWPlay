@@ -1,0 +1,11 @@
+{
+    "packageUrl" : "http://cdn.games.imlianpu.com/venus/game/update/snake",
+    "remoteManifestUrl" : "http://cdn.games.imlianpu.com/venus/game/update/snake/project.manifest",
+    "remoteVersionUrl" : "http://cdn.games.imlianpu.com/venus/game/update/snake/version.manifest",
+    "version" : "1.0.0",
+    "engineVersion" : "3.11",
+    "assets" : {
+    },
+    "searchPaths" : [
+    ]
+}
